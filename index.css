@@ -1,0 +1,273 @@
+
+
+ body{
+    margin: 0;
+    padding: 0;
+    height: 600px;
+}
+     
+.containermacbook{margin: 25px;
+    background-color: #c4c4c4;
+    display: flex ;
+    flex-flow: column wrap;
+    height: 100%;
+     justify-content: space-between;
+     align-content: space-between;
+}
+.red{background-color: red;
+   height: 250px;
+   width: 20%;
+   margin: 25px;
+   display: flex;
+}
+.red_1{
+    align-items: center;
+    justify-content: center;
+}
+   .red_2{ 
+       align-items: flex-end; 
+       justify-content: center;
+     }
+   .red_3{
+       align-items: flex-start;
+       
+     }
+     .red_4{
+         align-items: flex-end;
+         justify-content: flex-end;
+     }
+  
+.green{
+   background-color:#4AD03E;
+    height: 75px;
+    width: 75px;
+}
+ 
+ 
+   
+.containeriphone8{
+    display: none;
+}
+.containeripadPro{
+    display: none;
+}
+.containeripadmini{
+    display: none;
+}
+.containeripadminidown{
+    display: none;
+}
+
+
+
+@media only screen and (max-width: 850px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    
+    body{
+        margin: 0;
+        padding-right: 80%;
+        height: 600px;
+        background-color:  #2A73B7;
+    
+        ;
+    }
+      
+        .containeripadPro{margin: 25px;
+            background-color: #c4c4c4;
+            display: flex ;
+             align-content: space-between;
+             width: 714px;
+            height: 1897px;
+            margin-left: 25%;
+            margin-right: 25%;
+             flex-wrap: wrap;
+             justify-content: space-around;
+            padding-top: 53px;
+    
+        }
+            
+     
+        .truba30{
+             width: 204px;
+            height: 204px;
+            background-color:   #5D2BEC ;
+        }
+        .truba301{
+            margin-left: 40px;
+        }
+        .truba302{
+            margin-right:23px ;
+        }
+        .truba70{ 
+            background-color: #5D2BEC;
+            width: 371px;
+            height: 204px;
+        }
+        .truba701{
+            margin-right:23px;
+        }
+        .truba702{
+            margin-left: 40px;
+        }
+             .truba100{background-color:    #5D2BEC;
+    
+    ;
+                height: 204px;
+                width: 615px;
+                margin: 15px;
+                display: flex;
+                margin-left: 59px;
+                margin-right: 40px;
+                flex-basis: 615px;
+             }
+
+             .containermacbook{
+                display: none;}
+
+             .containeriphone8{
+                display: none;
+            }
+
+            .container_redipadminidown{
+                display: none;
+            }
+            .containeripadmini{
+                display: none;
+            }
+        
+}
+ 
+
+@media only screen and (max-width: 750px)
+{
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+           
+     
+       body{padding-top: 86px;
+            background-color: silver ;
+     
+    
+       }
+     .containeripadmini{   
+         margin-left: 5%;
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: space-between;
+         height: 100%;
+         width: 700px;
+      }
+     .blue_30{margin-top: 15px;
+          width: 204px;
+         height: 204px;
+         background:   #5D2BEC;      
+        }
+        .blue_301{
+            margin-right: 25px;
+        }
+        .blue_302{
+            margin-left: 35px;
+        }
+    
+    
+    .blue_70{
+        margin-top: 15px;
+        margin-right: 25px;
+        height: 204px;
+        width: 423px;
+        background-color: #5D2BEC;
+    }  
+    
+    
+     .blue_100{
+         margin-left: 5%;
+         margin-top: 22px;
+         margin-bottom: 87px;
+        height: 204px;
+        width: 642px;  
+        background:   #5D2BEC;
+    
+     }
+     .container_redipadminidown{
+         width: 100%;
+         height: 258px;
+         background-color:    #EB1818;
+    
+         ;
+     }
+     .containeriphone8{
+        display: none;
+    }
+    .containeripadPro{
+        display: none; }
+        .containermacbook{
+            display: none;
+        }
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    * {
+        margin: 0%;
+        padding: 0%;
+         
+        box-sizing: border-box;
+    }
+     body{background-color: white;}
+    .containeriphone8{ 
+         display: flex ;     
+        flex-flow: column wrap;
+        height:100vh;
+         
+    }
+    .red {  
+    position: relative;
+    height: 333.5px;
+    width: 100vh;
+    background-color: red;
+    
+    
+    }
+    .white{
+        height: 333.5px;
+    width: 100%;
+    }
+    .up{
+        height: 143px;
+    width: 143px;
+    top: 70%;
+        left: 60%;
+        margin-right: -50%;
+     background-color: white;
+    z-index:1  ;
+    position:absolute ;
+    transform: translate(-50%, -50%) ;
+     border:solid black;
+    } 
+
+
+
+
+    .containermacbook{
+        display: none;}
+
+    .containeripadPro{
+        display: none;
+    }
+    .container_redipadminidown{
+        display: none;
+    }
+    .containeripadmini{
+        display: none;
+    }
+     
+}
